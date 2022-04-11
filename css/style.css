@@ -1,0 +1,773 @@
+@media (min-width:1025px){
+
+  body {
+    background-image: url('../imagenes/fontofutbol.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .grid-container {  
+      
+      display: grid;
+      grid-template-columns: 0.3fr 1.7fr 0.7fr;
+      grid-template-rows: 0.3fr 2.3fr 0.4fr;
+      gap: 16px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "grid-navbar grid-navbar grid-navbar"
+        ". grid-main ."
+        "grid-footer grid-footer grid-footer";
+    }
+    
+    .grid-navbar { 
+      grid-area: grid-navbar;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      border-style: solid;
+      border-color: black;
+      background-image: url('../imagenes/pasto2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 20px;
+      margin-bottom: 60px; 
+      }
+    
+    .grid-main {  
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 26px 26px;
+      grid-auto-flow: row;
+      height: 500px;
+      grid-template-areas:
+        "box1 box2 box3"
+        "box4 box5 box6"
+        "box7 box8 box9"
+        "box10 box11 box12";
+      grid-area: grid-main;
+      margin: 1px 50px;
+    }
+    
+    .box1 { 
+        grid-area: box1;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+      }
+    
+    .box2 { 
+        grid-area: box2;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+      }
+    
+    .box3 { 
+        grid-area: box3;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+      }
+    
+    .box4 { 
+        grid-area: box4;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+      }
+
+    .box5 {
+      grid-area: box5;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box6 {
+      grid-area: box6;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box7 {
+      grid-area: box7;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box8 {
+      grid-area: box8;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box9 {
+      grid-area: box9;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box10 {
+      grid-area: box10;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box11 {
+      grid-area: box11;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .box12 {
+      grid-area: box12;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+    }
+
+    .grid-footer { 
+        grid-area: grid-footer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: black;
+        height: 100px;
+        background-color:green;
+        align-self:flex-end;
+        margin-top: 530px;
+        border-radius: 20px;
+      }
+
+  .pie {
+      font-family: monospace;
+      color: white;
+  }
+
+  .titulo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .camiseta1-info {
+      display: flex;
+      text-align:center;
+      justify-content: center;
+      color: rgb(150, 236, 150);
+      font-family: monospace;
+  }
+
+  .botonCompra {
+      text-align: center;
+      font-family: monospace;
+      border-radius: 5px;
+      width: 100px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      box-shadow: 0 0 10px white;
+  }
+
+  .nvar {
+      display: inline-block;
+      margin-right: 40px;
+      font-size: 14px;
+      font-family: monospace;
+      text-decoration: none;
+
+      text-align:center;
+
+      color: aliceblue;
+  }
+
+  .nombre {
+      display: inline-block;
+      margin-right: 80px;
+      font-size: 10px;
+      color: #FFF;
+      text-align: center;
+
+      font: italic bold 50px Georgia, Serif;
+      text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+  }
+
+  .camiseta1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .principal {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* GRDID INDEX */
+
+  .grid-index {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 2fr 2fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-nvar"
+      "grid-principal"
+      "grid-principal"
+      "grid-footerIndex";
+  }
+
+  .grid-principal {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.6fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-imagen"
+      "grid-info";
+    grid-area: grid-principal;
+  }
+
+  .grid-imagen { 
+    grid-area: grid-imagen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .grid-info { 
+    grid-area: grid-info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 20px;
+    height: 200px;
+  }
+
+  .grid-nvar { 
+    grid-area: grid-nvar;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    background-image: url('../imagenes/pasto2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px; 
+  }
+
+  .grid-footerIndex { 
+    grid-area: grid-footerIndex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    height: 100px;
+    background-color:green;
+    align-self:flex-end;
+    margin-top: 200px;
+    border-radius: 20px;
+  }
+
+  .imagenPrincipal {
+    height: 500px;
+    width: 1100px;
+    margin-top: 600px;
+  }
+
+  .textoInfo {
+    font-family: monospace;
+    font-size: 25px;
+    color:white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:1024px){
+
+  body {
+    background-image: url('../imagenes/fontofutbol.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .grid-container {  
+      
+      display: grid; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 0.3fr 2.4fr 0.3fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "grid-navbar"
+        "grid-main"
+        "grid-footer";
+    }
+    
+    .grid-navbar {
+      display: grid; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 1fr 1fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "grid-nombre"
+        "grid-menu"; 
+      grid-area: grid-navbar;
+
+      }
+    
+    .grid-nombre {
+      grid-area: grid-nombre;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      border-style: solid;
+      border-color: black;
+      background-image: url('../imagenes/pasto2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 20px;
+      height: 100px;
+      padding-bottom: 3px;
+    }
+
+    .grid-menu {
+      grid-area: grid-menu;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: flex-start;
+      margin-left: 30px;
+      margin-top: -578px;
+      margin-bottom: -60px;
+    }
+
+    .grid-main {  
+      display: grid;
+      grid-template-columns: 0.9fr 1.2fr 0.9fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+          ". box1 ."
+          ". box2 ."
+          ". box3 ."
+          ". box4 ."
+          ". box5 ."
+          ". box6 ."
+          ". box7 ."
+          ". box8 ."
+          ". box9 ."
+          ". box10 ."
+          ". box11 ."
+          ". box12 .";
+      grid-area: grid-main;
+      margin-top: -290px;
+      margin-bottom: -491px;
+    }
+    
+    .box1 { 
+        grid-area: box1;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+    
+    .box2 { 
+        grid-area: box2;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+    
+    .box3 { 
+        grid-area: box3;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+    
+    .box4 { 
+        grid-area: box4;
+        background-color: black;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0 0 20px white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+
+    .box5 {
+      grid-area: box5;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box6 {
+      grid-area: box6;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box7 {
+      grid-area: box7;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box8 {
+      grid-area: box8;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box9 {
+      grid-area: box9;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box10 {
+      grid-area: box10;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box11 {
+      grid-area: box11;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box12 {
+      grid-area: box12;
+      background-color: black;
+      text-align: center;
+      padding: 20px 20px;
+      box-shadow: 0 0 20px white;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .grid-footer { 
+        grid-area: grid-footer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: black;
+        height: 100px;
+        background-color:green;
+        align-self:flex-end;
+        margin-top: 530px;
+        border-radius: 20px;
+      }
+
+  .pie {
+      font-family: monospace;
+      color: white;
+  }
+
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .camiseta1-info {
+      display: flex;
+      text-align:center;
+      justify-content: center;
+      color: rgb(150, 236, 150);
+      font-family: monospace;
+  }
+
+  .botonCompra {
+      text-align: center;
+      font-family: monospace;
+      border-radius: 5px;
+      width: 100px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      box-shadow: 0 0 10px white;
+  }
+
+  .nvar {
+      display: inline-block;
+      margin-right: 40px;
+      font-size: 14px;
+      font-family: monospace;
+      text-decoration: none;
+
+      text-align:center;
+
+      color: aliceblue;
+  }
+
+  .nombre {
+      display: flex;
+      font-size: 10px;
+      color: #FFF;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      
+      font: italic bold 50px Georgia, Serif;
+      text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+  }
+
+  .camiseta1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .principal {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* GRDID INDEX */
+
+  .grid-index {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 2fr 2fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-nvar"
+      "grid-principal"
+      "grid-principal"
+      "grid-footerIndex";
+  }
+
+  .grid-principal {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.6fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grid-imagen"
+      "grid-info";
+    grid-area: grid-principal;
+  }
+
+  .grid-imagen { 
+    grid-area: grid-imagen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 379px;
+  }
+
+  .grid-info { 
+    grid-area: grid-info;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 20px;
+    height: 200px;
+    margin-right: 10px;
+  }
+
+  .grid-nvar { 
+    grid-area: grid-nvar;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    background-image: url(../imagenes/pasto2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    padding-bottom: 17px;
+    margin-right: 10px;
+  }
+
+  .grid-footerIndex { 
+    grid-area: grid-footerIndex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    height: 100px;
+    background-color:green;
+    align-self:flex-end;
+    margin-top: 200px;
+    border-radius: 20px;
+  }
+
+  .imagenPrincipal {
+    height: 500px;
+    width: 1100px;
+    margin-top: 600px;
+  }
+
+  .textoInfo {
+    font-family: monospace;
+    font-size: 25px;
+    color:white;
+  }
+
+  .tituloPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nvar2 {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: monospace;
+    text-decoration: none;
+
+    text-align:center;
+
+    color: aliceblue;
+  }
+
+}
