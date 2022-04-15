@@ -5,37 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <div class="grid-index">
-        <div class="grid-nvar">
-            <div class="titulo">
-                <h1 class="nombre">CAMICECFUT</h1>
-                <p class="nvar2 nvar"><a style="text-decoration: none; color: aliceblue;" href="../index.html">Inicio</a></p>
-                <p class="nvar nvar2"><a style="text-decoration: none; color: aliceblue;" href="pages/productos.html">Productos</a></p>
-                <p class="nvar nvar2">Contacto</p>
-                <p class="nvar nvar2">Nosotros</p>
-                <p class="nvar nvar2">Envios</p>
-            </div>
-        </div>
-
-        <div class="grid-principal">
-            <div class="grid-imagen">
-                <img class="imagenPrincipal" src="imagenes/portadaCamisetas.png">
-
-            </div>
-            <div class="grid-info">
-                <p class="textoInfo">Pagina dedicada a la venta de camisetas de equipos de futbol de todo el MUNDO.</p>
-            </div>
-        </div>
-
-
-
-        <div class="grid-footerIndex">
-            <div class="pie">
-            <h3>Derechos reservados CAMICEfut</h3>
-        </div>
+<body class="imagen-fondo">
+    <div class="conteiner d-flex justify-content-center">
+        <ul class="nav nav-pills nav-fill" style="margin-top: 20px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Envios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+            </li>
+          </ul>
     </div>
+
+    <div class="conteiner posision">
+        <p class="nombre">CAMICECFUT</p>
+    </div>
+
+    <div class="conteiner" style="margin-top: 280px; display: flex; justify-content: center;">
+        <img src="imagenes/portadaCamisetas.png" class="img-fluid">
+    </div>
+
+    <div class="alert alert-primary " role="alert" style="text-align: center; margin-top: 60px; border-radius: 10px;">
+        <h2 style="text-align: center; font-family: monospace;">PAGINA DEDICADA A LA VENTA DE CAMISETAS DE TODO EL MUNDO</h2>
+    </div>
+
+    <div class="container position-relative bottom-0 end-0" style="margin-top: 100px;">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2022 CAMICECFUT, Inc</p>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="" class="nav-link px-2 text-muted">Instagram</a></li>
+            <li class="nav-item"><a href="" class="nav-link px-2 text-muted">Facebook</a></li>
+          </ul>
+        </footer>
+      </div>
 </body>
 </html>
