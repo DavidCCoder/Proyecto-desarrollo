@@ -1,11 +1,10 @@
-@media (min-width: 501px){
-
+@charset "UTF-8";
+/*Variable*/
+@media (min-width: 501px) {
   .imagen-fondo {
-    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(79, 83, 77));
+    background-image: linear-gradient(to left, black, #4f534d);
     background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+    background-size: cover; }
   .nombre {
     font-size: 10px;
     color: #FFF;
@@ -14,59 +13,44 @@
     text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-  
+    align-items: center; }
   .posision {
     display: flex;
     justify-content: space-around;
     padding-top: 90px;
     margin-bottom: -214px;
     flex-wrap: nowrap;
-    align-items: center;
-  }
-  
+    align-items: center; }
+  h2 {
+    text-align: center;
+    font-family: monospace; }
   .productos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-  }
-  
+    justify-content: center; }
   .img1:hover {
-    transform: scale(1.5);
-  }
-  
+    transform: scale(1.5); }
   .lugar {
     justify-content: center;
     margin-top: 20px;
     margin-right: -26px;
-    margin-bottom: 30px;
-  }
-  
+    margin-bottom: 30px; }
   .tamaño {
-    height: 500px;
-  }
-
-}
+    height: 500px; } }
 
 @media (max-width: 500px) {
-
   .prueba {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   .imagen-fondo {
-    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(79, 83, 77));
+    background-image: linear-gradient(to left, black, #4f534d);
     background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+    background-size: cover; }
   .nombre {
     font-size: 10px;
     color: #FFF;
@@ -75,38 +59,29 @@
     text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-  
+    align-items: center; }
   .posision {
     display: flex;
     justify-content: space-around;
     padding-top: 90px;
     margin-bottom: -214px;
     flex-wrap: nowrap;
-    align-items: center;
-  }
-  
+    align-items: center; }
   .productos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
-  }
-  
+    justify-content: center; }
   .img1:hover {
-    transform: scale(1.5);
-  }
-  
+    transform: scale(1.5); }
   .lugar {
     justify-content: center;
     margin-top: 20px;
     margin-right: -26px;
-    margin-bottom: 30px;
-  }
-  
+    margin-bottom: 30px; }
   .tamaño {
-    height: 500px;
-  }
-  
+    height: 500px; }
+  h2 {
+    text-align: center;
+    font-family: monospace; } 
 }
