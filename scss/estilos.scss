@@ -127,7 +127,7 @@ $estilos: (
       }
       
     .tamaño {
-        height: 300px;
+      @include size(300px);
       }
     
     h2 {
