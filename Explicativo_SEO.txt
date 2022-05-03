@@ -1,0 +1,17 @@
+EXPLICATIVO SEO DE LA PAGINA:
+
+1 - SE AGREGARON LOS TITULOS A LAS DOS PAGINAS.
+
+    - Mediante la etiqueta tittle se le dio un titulo preciso sobre el contenido de cada pagina.
+
+2 - SE AGREGARON KEYWORD A LAS DOS PAGINAS.
+
+    - Mediante la etiqueta meta keywords se le agregaron palabras claves a cada pagina para optimizar la posicion del sitio web en los motores de busqueda.
+
+3 - SE AGREGARON DESCRIPCIONES A LAS DOS PAGINAS.
+
+    - Mediante la etiqueta meta description se agrego un parrafo breve pero conciso de lo que se encuentra en cada pagina.
+
+4 - SE AGREGARON ENCABEZADOS A LAS PAGINAS.
+
+    - Se agrega encabezado con h1 para determinar la estructura jerarquica del contenido.

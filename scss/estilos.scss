@@ -2,6 +2,19 @@
 
 $tamaño-margin-top: 20px;
 
+/*Mapa*/
+
+$estilos: (
+  centrado: center,
+  direccion: row,
+);
+
+/*Mixin*/
+
+@mixin size ($heigth){
+  height: $heigth;
+}
+
 @media (min-width: 501px){
 
     .imagen-fondo {
@@ -18,7 +31,7 @@ $tamaño-margin-top: 20px;
         text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: map-get($estilos, centrado);
       }
 
     .posision {
@@ -27,18 +40,18 @@ $tamaño-margin-top: 20px;
         padding-top: 90px;
         margin-bottom: -214px;
         flex-wrap: nowrap;
-        align-items: center;
+        align-items: map-get($estilos, centrado);
       }
 
     h2 {
-        text-align: center;
+        text-align: map-get($estilos, centrado);
         font-family: monospace;
       }
 
     .productos {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: map-get($estilos, direccion);
         justify-content: center;
       }
 
@@ -54,7 +67,7 @@ $tamaño-margin-top: 20px;
       }
 
     .tamaño {
-        height: 500px;
+        @include size(500px);
       }
 }
 
@@ -114,7 +127,7 @@ $tamaño-margin-top: 20px;
       }
       
     .tamaño {
-        height: 500px;
+        height: 300px;
       }
     
     h2 {
