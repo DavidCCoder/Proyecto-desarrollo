@@ -175,4 +175,6 @@
     width: 25rem;
     display: flex;
     align-items: center;
-    padding-top: 10px; } }
+    padding-top: 10px; }
+  .logoTamaño {
+    width: 100px; } }
