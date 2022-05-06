@@ -1,6 +1,7 @@
 /*Variable*/
 
 $tamaño-margin-top: 20px;
+$texto-claro: rgb(245, 222, 179);
 
 /*Mapa*/
 
@@ -109,6 +110,32 @@ $estilos: (
       margin-top: 40px;
     }
 
+    .textClaro {
+      color: $texto-claro;
+    }
+
+    .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    }
+
+    .mapas {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .ubicacion {
+      width: 25rem;
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -132,7 +159,7 @@ $estilos: (
         font-size: 10px;
         color: #FFF;
         text-align: center;
-        font: italic bold 61px Georgia, Serif;
+        font: italic bold 40px Georgia, Serif;
         text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
         display: flex;
         justify-content: space-between;
@@ -213,6 +240,30 @@ $estilos: (
       margin-left: 40px; 
       margin-top: 40px;
     }
+    
+  .textClaro {
+      color: $texto-claro;
+    }
 
+  .logo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-around;
+      justify-content: space-around;
+    }
 
+  .mapas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .ubicacion {
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
 }
